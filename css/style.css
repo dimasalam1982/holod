@@ -54,6 +54,18 @@ h1{
 	padding-top: 200px;
 }
 
+/* Контекнт главная */
+
+.video-preview{
+	opacity: 0.7;
+}
+
+.play {
+	position: absolute;
+	left: 250px;
+	margin-top: 80px;
+}
+
 /* Форма Отправить письмо */
 
 .send-form {
