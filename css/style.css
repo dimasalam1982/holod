@@ -1,0 +1,113 @@
+/* Внешние шрифты */
+
+@font-face {
+	font-family: 'MyHeaderFont'; 
+	src: url(../fonts/font.ttf); 
+}
+
+@font-face {
+	font-family: 'RobotoRegular'; 
+	src: url(../fonts/roboto-regular.ttf); 
+}
+
+/* Глобальная разметка */
+
+body{
+	background: url('../img/background-image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "RobotoRegular"
+}
+
+table.main {
+	width: 90%;
+	margin: auto;
+	border: none;
+}
+
+/* Главное меню - ссылки */
+
+.main-menu-link {
+	color: white;
+	text-decoration: none;
+	font-family: "MyHeaderFont";
+	font-size: 32px;
+	margin-left: 50px;
+}
+
+.menu {
+	width: 60%;
+	margin: auto;
+}
+
+/* Заголовки */ 
+
+h1{
+	text-align: center;
+	color: #6b0000;
+}
+
+
+/* Контект */
+
+#content {
+	padding-top: 200px;
+}
+
+/* Форма Отправить письмо */
+
+.send-form {
+	width: 600px;
+	margin: auto;
+}
+
+.send-form label {
+	display: block;
+}
+
+.send-form input, textarea {
+	margin-top: 15px;
+	margin-left: 20px;
+	padding: 5px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #a30013;
+	width: 90%;
+}
+
+.send-form input, textarea {
+	border: 1px solid #a30013;
+}
+
+.form-group {
+	margin-top: 25px;
+}
+
+.submit{
+	width: 100%;
+	text-align: center;
+}
+
+input[type="submit"]{
+	border: none;
+	width: auto;
+	padding: 15px;
+	background: #a30013;
+    color: white;
+    font-weight: bold;
+}
+
+/* Подвал */
+
+#footer {
+	height: 50px;
+}
+
+/* tankyou page */
+.thankyou {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-family: "MyHeaderFont";
+	font-size: 25px;
+}
